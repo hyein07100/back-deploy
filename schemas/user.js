@@ -10,4 +10,4 @@ const userSchema = new Schema({
 })
 
 //model('객체명' , 스키마, '컬렉션 테이블명')
-export default model("User",userSchema , "users")
+export default model("User", userSchema , "users")
