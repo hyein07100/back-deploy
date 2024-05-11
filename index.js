@@ -16,7 +16,7 @@ app.use((req,res,next)=>{
 
 app.use(cors({
   //origin : git 주소 , 로컬 주소
-  origin : 'http://localhost:3000/',
+  origin : 'http://localhost:3000',
   method : ['GET','POST','DELETE','PUT'],
   credentials : true
 }))
